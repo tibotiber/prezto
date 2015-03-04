@@ -17,4 +17,5 @@ alias eqq='emacs -nw -Q' # No config and no X11
 
 # dev
 alias muxkill="tmux kill-session -t"
-
+alias gts="git status"
+alias gdf='git diff'
