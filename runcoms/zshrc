@@ -19,6 +19,7 @@ alias eqq='emacs -nw -Q' # No config and no X11
 alias muxkill="tmux kill-session -t"
 alias gts="git status"
 alias gtd='git diff'
+alias rm~='rm -f *~'
 
 # fix term color for iTerm2 + tmux + emacs
 export TERM="xterm"
