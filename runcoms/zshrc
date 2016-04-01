@@ -22,7 +22,9 @@ alias gtd='git diff'
 alias gtds='git diff --staged'
 alias gtc='git checkout'
 alias gtb='git branch'
-alias rm~='rm -f *~'
+alias ctf='rm -f **/*~ **/*.orig'
 
 # fix term color for iTerm2 + tmux + emacs
 export TERM="xterm"
+export NVM_DIR="/Users/tibo/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
