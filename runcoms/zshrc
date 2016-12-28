@@ -28,3 +28,6 @@ alias ctf='rm -f **/*~ **/*.orig'
 export TERM="xterm"
 export NVM_DIR="/Users/tibo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# added by travis gem
+[ -f /Users/tibo/.travis/travis.sh ] && source /Users/tibo/.travis/travis.sh
