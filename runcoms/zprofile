@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR='emacs -nw'
-export VISUAL='emacs -nw'
+export EDITOR='atom'
+export VISUAL='atom'
 export PAGER='less'
 
 #
@@ -76,4 +76,3 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 if [[ ! -d "$TMPPREFIX" ]]; then
     mkdir -p "$TMPPREFIX"
 fi
-
