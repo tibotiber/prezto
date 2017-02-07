@@ -10,6 +10,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+# tmuxinator completion
+source ~/.tmuxinator/tmuxinator.zsh
+
+# github ssh key
+ssh-add ~/.ssh/github_rsa
+
 # ALIASES
 # text editor commands
 alias em='emacs -nw'     # No X11 windows
@@ -24,8 +30,6 @@ alias gtc='git checkout'
 alias gtb='git branch'
 alias ctf='rm -f **/*~ **/*.orig'
 
-# fix term color for iTerm2 + tmux + emacs
-export TERM="xterm"
 export NVM_DIR="/Users/tibo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
