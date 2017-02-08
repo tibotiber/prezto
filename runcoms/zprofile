@@ -22,6 +22,11 @@ export VISUAL='atom'
 export PAGER='less'
 
 #
+# Colors
+#
+export TERM="xterm-256color"
+
+#
 # Language
 #
 
