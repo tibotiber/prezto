@@ -5,13 +5,13 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# add custom completion (docker, tmuxinator)
+fpath=("${ZDOTDIR:-$HOME}/.zprezto/modules/completion/custom" $fpath)
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
-
-# tmuxinator completion
-source ~/.tmuxinator/tmuxinator.zsh
 
 # ALIASES
 # text editor commands
