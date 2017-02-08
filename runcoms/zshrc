@@ -13,9 +13,6 @@ fi
 # tmuxinator completion
 source ~/.tmuxinator/tmuxinator.zsh
 
-# github ssh key
-ssh-add ~/.ssh/github_rsa
-
 # ALIASES
 # text editor commands
 alias em='emacs -nw'     # No X11 windows
