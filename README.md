@@ -1,3 +1,9 @@
+## DEPRECATION NOTICE:
+I am not using prezto anymore. I have now switched to oh-my-zsh through the excellent [Antigen](http://antigen.sharats.me) made by [zsh-users](http://github.com/zsh-users). Everything happend on my [dotfiles repo](https://github.com/tibotiber/dotfiles) from now on.
+
+---
+
+
 Prezto — Instantly Awesome Zsh
 ==============================
 
